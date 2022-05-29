@@ -1,0 +1,56 @@
+#firstbox {
+    border-color: #8a011c;
+    height: 650px;
+    width: 90%;
+  } 
+
+#secondbox {
+    background-color: #403636;
+    height: 650px;
+    width: 90%;
+  } 
+
+#thirdbox {
+    background-color: #680108;
+    height: 650px;
+    width: 90%; /*with is not the same as margins you dumb ass!!!!! use percentage so you dont need the costum code for different devices!!*/
+  } 
+
+#forthbox {
+    background-color: #0d0b0b
+    ;
+    height: 650px;
+    width: 90%;
+  } 
+#card1{
+  background-color: #403636;
+}
+
+#card2{
+  background-color: #680108;
+}
+
+#quite1{
+  background-color: #ffbe0a
+  ;
+}
+
+#quite3{
+  background-color: #ffbe0a
+  ;
+}
+
+#quite2{
+  margin: 4rem;
+  background-color: #ffbe0a
+  ;
+}
+
+#form{
+  border-color: #8a011c;
+}
+
+@font-face{ /*IDK this is not working :'(*/
+  font-family: AmalfiCoast;
+  src: url(AmalfiCoast.ttf);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css_Style/bootstrap.css">
+    <link rel="stylesheet" href="Css_Style/Css_stuff.css">
+    <title>Contact us</title>
+</head>
+<body style="background-color:#310101;">
+    
+  <h1 style="font-family: AmalfiCoast; color: #ffbe0a; text-align: center;">Fancy Shmancy</h1>
+
+  <br>
+  
+  <nav class="navbar navbar-expand-lg"> <!--Doing the nav bar, I took the usual navbar code and deleted what I didnt need-->
+    <div class="container-fluid">
+            <div class="nav-item dropdown">
+              <button class="dropdown-toggle btn btn-outline-secondary" type="button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <!--I turned it from a hyperlink to a button, so it matches my other buttons on the navbar. I also went into bootstrap and changed the colour of the 'secondary' button-->
+               About us
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Mission statement</a></li>
+               <li><a class="dropdown-item" href="#">Our staff</a></li>
+              </ul>
+            </div>
+
+            <button class="btn btn-outline-secondary" type="button"> <a href="task_3_website_4.html"></a> Our menu</button>
+            
+              <div class="nav-item dropdown">
+                <button class="dropdown-toggle btn btn-outline-secondary" type="button" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Reserve
+                </button>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Reserve a table</a></li>
+                    <li><a class="dropdown-item" href="task_3_website_2.html">Reserve a menu item</a></li>
+                  </ul>
+              </div>
+
+          <button class="btn btn-outline-secondary" type="button"> <a href="task_3_website_3.html">contact us</a> </button>
+
+          <button class="btn btn-outline-secondary" type="button"> <a href="task_3_website_5.html">Log in/Sign up</a> </button>
+    </div>
+  </nav>
+
+<br>
+  
+<form action="mailto:fancyshmancy@beautifulwebsite.com?subject=Email from site" method="post"> <!--interactive-->
+
+  <div class="d-flex justify-content-center">
+    <label style="color:#ffbe0a;" for="Name"> <h2> Name: </h2></label>
+    <div><input type="text" name="Name" id="Name"></div>
+  </div> 
+
+  <br>
+
+  <div class="d-flex justify-content-center">
+    <label style="color:#ffbe0a;" for="Email"> <h2>Email: </h2></label>
+    <div><input type="text" name="Email" id="Email"></div>
+  </div>
+
+  <br>
+
+  <div class="d-flex justify-content-center">
+    <label style="color:#ffbe0a;" for="Comment"> <h2>Comment:</h2></label>
+    <div><input type="text" name="Comment" id="Comment"></div>
+  </div>
+  
+  <br>
+
+  <div class="d-flex justify-content-center">
+    <button class="btn btn-outline-secondary" type="submit">Submit</button>
+  </div>
+</form>
+
+<script src="Scripts/bootstrap.js"></script>
+<script src="Icons/all.js"></script>
+</body>
+</html>
